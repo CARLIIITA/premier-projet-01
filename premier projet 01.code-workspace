@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../apollo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "premier projet 01"
+	}
+}

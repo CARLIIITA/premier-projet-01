@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+    <link rel="stylesheet" href="css/formulaire.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>Formulaire</h1>
+    </header>
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+  
+    <section>
+        <form action=connexion>
+        <label for="pseud"> pseudo:</label><br>
+        <input type="text" id="pseud" name="pseud" placeholder="inserez votre pseudo"><br>
+        <label for="mdp"> Mot de passe:</label><br>
+        <input type="text" id="mdp" name="mdp" placeholder="inserez votre mot de passe"><br><br>
+       
+       
+        <label for="email"> mail:</label><br>
+        <input type="text" id="mail" name="mail" placeholder="inserez votre mail"><br>
+        <label for="photo"> fichier:</label><br>
+        <input type="file" id="photo" name="fichier" placeholder="importez un fichier"><br>
+        
+        
+        <fieldset>
+            <legend> Choix multiples </legend>
+            <label for="q1">Quelle destination choisissez-vous?</label>
+            
+            <div>
+                <p>Italie</p>
+                <input type="checkbox">
+                <p>Tunisie</p>
+                <input type="checkbox">
+                <p>Espagne</p>
+                <input type="checkbox">
+                
+
+            </div>
+
+                <label for="q2">Qui seront vos accompagnateurs?</label>
+                <div>
+                    <p>En famille</p>
+                    <input type="radio">
+                    <p>Entre amis</p>
+                    <input type="radio">
+                    <p>Solo</p>
+                    <input type="radio">
+        </fieldset>
+
+        <label for="commentaires"><textarea name="commentaires" id="commentaires" cols="80" rows="10"></textarea></label>
+
+
+ <input type="submit">
+<input type="reset">
+        
+    </form>
+
+
+    
+</body>
+</html>

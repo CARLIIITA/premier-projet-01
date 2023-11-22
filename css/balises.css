@@ -1,0 +1,56 @@
+* { 
+    text-align: right;
+
+}
+
+body {
+    background: color #f5deb3;
+}
+
+header{
+    height: 100px;
+    color: #fff;
+    background-color: #900c3f
+}
+
+nav{
+    height: 60px;
+    background-color:#daf7a6
+}
+
+section{
+    height: 550px;
+    background: navy;   
+}
+
+article{
+    height: 66px;
+    background-color: #ff5733;
+}
+
+
+footer{
+    text-decoration-color:#a93226;
+    height: 75px;
+    background:#daf7a6 
+}
+
+nav,footer{
+    color: #a93226;
+}
+
+
+
+
+/* SURLIGNAGE!! */
+.jaune{
+    background: yellow   
+}
+
+.noir  { background:black;
+ text-decoration-color:white ;
+ text-align: justify;
+ text-size-adjust: 25px;
+      
+
+}
