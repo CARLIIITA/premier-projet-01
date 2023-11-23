@@ -1,0 +1,47 @@
+table{
+   
+    width: 30%;
+    
+    background-color: violet;
+    margin: auto;
+    border: 3px;
+    border-color: #510080;
+    border-style: groove;
+}
+
+h1{
+    background-color: #d7d0ff;
+    color: #510080;
+    line-height:50px;
+    font-size: 25px;
+    font-weight: bolder;
+    
+}
+
+tr , td {
+    border: 1px dotted #510080; 
+}
+th{
+    background-color: #e7c2f5;
+}
+
+
+
+
+thead{
+    font-family: fantasy;
+    font-size: medium;
+    font-style: normal;
+    font-weight: normal;
+   
+    
+    background-color: violet;
+}
+tbody{
+    font-family: fantasy;
+    font-weight: normal;
+    background-color: white;
+}
+tfoot{
+    font-family: fantasy;
+}

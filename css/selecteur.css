@@ -1,0 +1,73 @@
+h1{ 
+    
+    background-color :#2F4F4F;
+    color: white;
+}
+section p:first-child{
+    color:#DC88E0 ;
+}
+section p:nth-child(2){
+    color: #AFE5FE;
+}
+section p:nth-child(3){
+    color: #FFA80B;
+}
+section p:nth-child(4){
+    color: #AFE5FE;
+}
+section p:nth-child(5){
+    color:#DC88E0;
+}
+section p:nth-child(6){
+    color: #AFE5FE;
+}
+section p:nth-child(7){
+    color:#DC88E0;
+}
+section p:nth-child(8){
+    color: #AFE5FE;
+}
+section p:nth-child(9){
+    color:#DC88E0;
+}
+section p:nth-child(10){
+    color: #FFA80B;
+}
+section div:first-child{
+    color:#DD2D63 ;
+}
+
+section div:nth-child(2){
+    color:#0E8993 ;
+}
+section  p:nth-child(2){
+    color:#2F4F4F ;
+}
+section span1{
+    color:#51FF00 ;
+    
+}
+section  div:nth-child(2){
+    color:#358A83 ;
+    
+}
+
+section span5{
+color:#138C98 ;
+}
+section  span{
+   background-color:#00FFFF ;    
+}
+
+ section div:nth-child(3){
+    background-color:#F5DEB3 ;
+}
+
+section span4{
+    font-size: xx-large; font-weight: bolder;
+}
+
+section  li:nth-child(2){
+    background-color: #8B0000;
+    color: white;
+}
