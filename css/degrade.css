@@ -1,0 +1,9 @@
+#cercle{
+    border-radius: 50%;
+    margin: auto;
+
+    height: 45em;
+    width: 45em;
+background-image: linear-gradient( to right, #6840A4, #41A097);
+
+}

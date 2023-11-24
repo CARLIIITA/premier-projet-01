@@ -1,12 +1,28 @@
-table, td, tr{
+table{ 
+    
+    border: 1px solid black ;
+    margin: auto;
+    border-collapse: collapse;   
+   
+   
+}
 
+td{
+    width: 20px;
+    height: 20px;
     border: 1px solid black;
-    border-collapse: collapse;
-
 }
-
-
-
 .jaune{
-    color: yellow;
+    background-color: #FADB02;
 }
+.bleu{
+    background-color: #0825D4 ;
+}
+
+.gris{
+    background-color: #818279;
+}
+.noir{
+    background-color: black;
+}
+
