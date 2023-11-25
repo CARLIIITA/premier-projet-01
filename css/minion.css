@@ -2,15 +2,18 @@ table{
     
     border: 1px solid black ;
     margin: auto;
-    border-collapse: collapse;   
-   
-   
+    border-collapse: collapse;     
 }
 
 td{
     width: 20px;
     height: 20px;
     border: 1px solid black;
+}
+
+tr:nth-child(2) td:nth-child(2),
+tr:nth-child(3) td:nth-child(even){
+
 }
 .jaune{
     background-color: #FADB02;
@@ -24,5 +27,9 @@ td{
 }
 .noir{
     background-color: black;
+}
+
+.vert{
+    background-color: green;
 }
 

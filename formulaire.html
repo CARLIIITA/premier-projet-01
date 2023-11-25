@@ -10,38 +10,44 @@
 
 <body>
     <header>
+
         <h1>Formulaire</h1>
+   
     </header>
+    
     <nav></nav>
-    <main></main>
-    <footer></footer>
+    
+    <main>
+   
   
     <section>
         <form action=connexion>
-        <label for="pseud"> pseudo:</label><br>
-        <input type="text" id="pseud" name="pseud" placeholder="inserez votre pseudo"><br>
+        <label for="pseud"> Pseudo:</label><br>
+        <input type1="text" id="pseud" name="pseud" placeholder=" pseudo "class="red"><br> <br>
         <label for="mdp"> Mot de passe:</label><br>
-        <input type="text" id="mdp" name="mdp" placeholder="inserez votre mot de passe"><br><br>
+        <input type="text" id="mdp" name="mdp" placeholder=" mot de passe" class="red"><br><br>
        
        
-        <label for="email"> mail:</label><br>
-        <input type="text" id="mail" name="mail" placeholder="inserez votre mail"><br>
-        <label for="photo"> fichier:</label><br>
-        <input type="file" id="photo" name="fichier" placeholder="importez un fichier"><br>
+        <label for="email"> Mail:</label><br>
+        <input type="text" id="mail" name="mail" placeholder=" mail " class="red"><br> <br>
         
+        <label for="photo"> Fichier:</label><br>
+        <input type="file" id="photo" name="fichier" placeholder="importez un fichier" class="red"><br>
+        
+        <br>
         
         <fieldset>
-            <legend> Choix multiples </legend>
+            <legend class="red"> Choix multiples  </legend> <br>
             <label for="q1">Quelle destination choisissez-vous?</label>
             
             <div>
-                <p>Italie</p>
-                <input type="checkbox">
+                <p>Italie</p><input type="checkbox">
                 <p>Tunisie</p>
                 <input type="checkbox">
                 <p>Espagne</p>
                 <input type="checkbox">
-                
+                <br>
+                <br>
 
             </div>
 
@@ -54,16 +60,19 @@
                     <p>Solo</p>
                     <input type="radio">
         </fieldset>
+        <br>
 
         <label for="commentaires"><textarea name="commentaires" id="commentaires" cols="80" rows="10"></textarea></label>
 
+        <br> <br>
 
  <input type="submit">
 <input type="reset">
         
     </form>
-
-
+</main>
+   
+<footer></footer>
     
 </body>
 </html>
