@@ -1,0 +1,51 @@
+.form1{
+  border-radius: 5px 10px 15px 20px ;
+  text-align: center;
+    background-color:#059e05;
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    margin: 5px;
+    
+    
+.form2{
+    border-radius:20px 0px ;
+    text-align: center;
+      background-color:#00FFFF;
+      border: 1px solid black;
+      height: 90px;
+      width: 90px;
+      margin: 5px;
+      
+
+}
+
+.form3{
+    border-radius:20px 0px ;
+    text-align: center;
+      background-color:#7FFFD4;
+      border: 1px solid black;
+      height: 90px;
+      width: 90px;
+      margin: 5px;
+}
+
+.form4{
+    border-radius:20px 0px ;
+    text-align: center;
+      background-color:#E9967A;
+      border: 1px solid black;
+      height: 90px;
+      width: 90px;
+      margin: 5px;
+}
+
+.form5{
+    border-radius:20px 0px ;
+    text-align: center;
+      background-color:#FF0000;
+      border: 1px solid black;
+      height: 90px;
+      width: 90px;
+      margin: 5px;
+}
