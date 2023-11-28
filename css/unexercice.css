@@ -1,0 +1,38 @@
+
+
+body{
+    text-align: center;
+    margin: auto;
+}
+
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+
+ height: 100px ;
+ background-color: #8E3557 ;
+}
+
+.nav{
+    background-color: #4A1A2C ;
+ height: 50px
+
+}
+
+.main{
+
+background: #E6E2AF 50px; border: #787746 solid 18px;
+
+height: 500px ;
+   
+
+}
+.footer{
+   
+    height: 100px ;
+    background-color: #8E3557 ;
+
+}
