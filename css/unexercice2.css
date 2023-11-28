@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	margin: auto;
+}
+
+.header {
+	height: 100px;
+	background-color: #8e3557;
+}
+.nav {
+	background-color: #4a1a2c;
+}
+
+.vert {
+	color: rgb(120, 119, 70);
+}
+
+.prune {
+	color: rgb(74, 26, 44);
+}
+
+.bleu {
+	color: #add8e6;
+}
+
+.beige {
+	color: rgb(230, 226, 175);
+}
+
+.footer {
+	height: 100px;
+	background-color: #4a1a2c;
+}

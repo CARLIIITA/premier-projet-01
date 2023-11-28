@@ -1,0 +1,29 @@
+.header {
+	background-color: #d2b48c;
+	width: 100px;
+}
+
+nav {
+	background-color: rgb(128, 128, 128);
+}
+
+.main {
+	background-color: aqua;
+}
+.rose {
+	background-color: #ffdab9;
+}
+
+.gris {
+	background-color: #415865;
+}
+.bleu {
+	background-color: rgb(122, 158, 177);
+}
+.beige {
+	background-color: #d2b48c;
+}
+
+.footer {
+	background-color: #c0c0c0;
+}
