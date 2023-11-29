@@ -15,21 +15,12 @@ tr:nth-child(2) td:nth-child(2),
 tr:nth-child(3) td:nth-child(even){
 
 }
-.jaune{
+
+.marron{
     background-color: #FADB02;
 }
-.bleu{
-    background-color: #0825D4 ;
-}
 
-.gris{
-    background-color: #818279;
-}
 .noir{
-    background-color: black;
+ 
+   background-color: black;
 }
-
-.vert{
-    background-color: green;
-}
-
