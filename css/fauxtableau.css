@@ -1,29 +1,94 @@
+*{
+	padding: 0px;
+	margin:auto;
+	box-sizing: border-box;
+
+}
+
+.section{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+
+.tableau{
+	width: 1400px;
+
+}
+
 .header {
+	color: white;
+	text-align: center;
+
 	background-color: #d2b48c;
-	width: 100px;
+	height: 90px;
+	
 }
 
 nav {
+	color: white;
 	background-color: rgb(128, 128, 128);
+	height: 30px;
+	text-align: center;
 }
 
 .main {
-	background-color: aqua;
+	background-color: #AFEEEE;
+	text-align: center;
+	
+	
 }
-.rose {
-	background-color: #ffdab9;
-}
+
+	.rose {
+		color: white;
+		text-align: center;
+		
+		background-color: #ffdab9;
+		width: 25%;
+		height: 250px;
+		border: white solid 1px
+	}
+	
+
+
+
 
 .gris {
+	color: white;
+	text-align: center;
 	background-color: #415865;
-}
-.bleu {
-	background-color: rgb(122, 158, 177);
-}
-.beige {
-	background-color: #d2b48c;
+	width: 25%;
+	height: 250px;
+	
+	border: white solid 1px
 }
 
+.bleu {
+	color: white;
+	text-align: center;
+	background-color: rgb(122, 158, 177);
+	width: 25%;
+	height: 250px;
+	border: white solid 1px
+}
+
+.beige {
+	color: white;
+	text-align: center;
+	background-color: #d2b48c;
+	width: 25%;
+		height: 250px;
+	border: white solid 1px
+}
+
+
+
+
 .footer {
+	text-align: center;
+	color: white;
 	background-color: #c0c0c0;
+	height: 90px;
 }

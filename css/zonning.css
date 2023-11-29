@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.content{
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+border: 1px solid;
+}
+header{
+  
+    width: 100%;
+    background-color: red;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
+}
+main{
+    display: flex;
+    height: 730px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+section{
+    width: 60%;
+    height: 100%;
+}
+
+section div{
+
+    height: 100%;
+
+}
+.aside{
+
+
+}
+
+.zone1
