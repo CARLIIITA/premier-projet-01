@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .content{
 
 	align-items: center;
@@ -18,12 +19,41 @@ header {
 
 	background-color: rgb(128, 128, 128);
 	text-align: center;
+=======
+*{
+	padding: 0px;
+	margin:auto;
+	box-sizing: border-box;
+
+}
+
+.section{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+
+.tableau{
+	width: 1400px;
+
+}
+
+.header {
+	color: white;
+	text-align: center;
+
+	background-color: #d2b48c;
+	height: 90px;
+>>>>>>> ce91cec6c79f614a7bf4c42b9dec7e544d53fcb3
 	
 }
 
 nav {
 	color: white;
 	background-color: rgb(128, 128, 128);
+<<<<<<< HEAD
 	text-align: center;
 }
 
@@ -33,11 +63,36 @@ nav {
 	background-color: #ffdab9;
 	border: white solid 1px;
 	flex-wrap: wrap;
+=======
+	height: 30px;
+	text-align: center;
+}
+
+.main {
+	background-color: #AFEEEE;
+	text-align: center;
+	
+>>>>>>> ce91cec6c79f614a7bf4c42b9dec7e544d53fcb3
 	
 }
 
+	.rose {
+		color: white;
+		text-align: center;
+		
+		background-color: #ffdab9;
+		width: 25%;
+		height: 250px;
+		border: white solid 1px
+	}
+	
+
+
+
+
 .gris {
 	color: white;
+<<<<<<< HEAD
 	background-color: #415865;
 	border: white solid 1px;
 }
@@ -55,4 +110,40 @@ nav {
 footer {
 	color: white;
 	background-color: #c0c0c0;
+=======
+	text-align: center;
+	background-color: #415865;
+	width: 25%;
+	height: 250px;
+	
+	border: white solid 1px
+}
+
+.bleu {
+	color: white;
+	text-align: center;
+	background-color: rgb(122, 158, 177);
+	width: 25%;
+	height: 250px;
+	border: white solid 1px
+}
+
+.beige {
+	color: white;
+	text-align: center;
+	background-color: #d2b48c;
+	width: 25%;
+		height: 250px;
+	border: white solid 1px
+}
+
+
+
+
+.footer {
+	text-align: center;
+	color: white;
+	background-color: #c0c0c0;
+	height: 90px;
+>>>>>>> ce91cec6c79f614a7bf4c42b9dec7e544d53fcb3
 }
