@@ -1,0 +1,29 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+
+main{
+display: flex;
+justify-content: space-around;
+}
+
+#colonneorange, #colonnebleu, #colonnerouge{
+ width: 90px;
+ margin: 3%;
+ height: 200px;
+}
+
+#colonneorange{
+background-color: #FF914D;
+}  
+
+#colonnebleu{
+background-color: #009CA1;  
+}
+
+
+#colonnerouge{
+background-color:#FF5757;    
+}
