@@ -1,29 +1,58 @@
-.header {
-	background-color: #d2b48c;
-	width: 100px;
+.content{
+
+	align-items: center;
+	background-color: aliceblue;
+}
+
+section{
+
+	width: 50px;
+	float: left;
+	
+
+}
+header {
+	color: white;
+
+	height: 90px;
+
+	background-color: rgb(128, 128, 128);
+	text-align: center;
+	
 }
 
 nav {
+	color: white;
 	background-color: rgb(128, 128, 128);
+	text-align: center;
 }
 
-.main {
-	background-color: aqua;
-}
+
 .rose {
+	color: white;
 	background-color: #ffdab9;
+	border: white solid 1px;
+	flex-wrap: wrap;
+	
 }
 
 .gris {
+	color: white;
 	background-color: #415865;
+	border: white solid 1px;
 }
 .bleu {
+	color: white;
 	background-color: rgb(122, 158, 177);
+	border: white solid 1px;
 }
 .beige {
+	color: white;
 	background-color: #d2b48c;
+	border: white solid 1px;
 }
 
-.footer {
+footer {
+	color: white;
 	background-color: #c0c0c0;
 }
