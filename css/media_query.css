@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    
+    main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+    
+    #colonneorange, #colonnebleu, #colonnerouge{
+     width: 30%;
+     height: 100%;
+    }
+    
+    #colonneorange{
+    background-color: #FF914D;
+
+    }  
+    
+    #colonnebleu{
+    background-color: #009CA1;  
+    }
+    
+    
+    #colonnerouge{
+    background-color:#FF5757;    
+    }
+
+    @media only screen and (max-width: 1399px) {
+
+        #colonneorange, #colonnebleu, #colonnerouge{
+           width: 100%;
+           height: 100px;
+        }
+
+    
+
+    
+
+    }
+        
+   
+    
+
+
+    
