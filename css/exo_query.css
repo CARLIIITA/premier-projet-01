@@ -1,0 +1,37 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1400px;
+    min-height: 200px;
+    margin: auto;
+
+}
+section{
+    width: 100%;
+    min-height: 200px;
+    background-color: yellow;
+
+    
+}
+
+h1{
+    display: none;
+}
+
+@media only screen and (max-width: 1399px){    
+    
+section{
+
+    
+    background-color: green;  
+
+}
+
+h1{
+    display: none;
+    text-align: center
+}

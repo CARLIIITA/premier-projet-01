@@ -3,10 +3,7 @@
     box-sizing: border-box;
     font-family:'Courier New', Courier, monospace
     padding 0%
-    
    
-    
-    
 }
 
 nav{
@@ -21,29 +18,37 @@ header{
 }
 
 
-
-
 .ligne{
 
     height: 100px;
-    width: 33.33%;
-    display: flex;
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap;
+    
    
+}
+.ligne div{    
+    width: 33.3%;
+    text-align: center;
 }
 
 
 .orange{
 
  background-color: #F5CF8E;
-width: 33.33%;
+ height: 100px;
+
+
 
 }
 .violet{
-    background-color: #C9C6FB ;   
+    background-color: #C9C6FB ;
+   
     
 }
 .rose{
     background-color: #F09A9D ;
+   
    
     
 }
@@ -54,22 +59,26 @@ width: 33.33%;
 
     background-color: #D7E9FF;
     height: 50px;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 100% !important;
+ 
+   
+    
  
 }
 .content{
     background-color: #E9EDF0 ;
     height: 90px;
-    width: 100%;
+    width: 100% !important;
+    /* order:-1; */
 
-@media only screen and (max-width: 800px){
-    
+
 
 }
    
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: px){
+
+
 
 
 
